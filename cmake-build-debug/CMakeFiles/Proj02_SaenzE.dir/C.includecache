@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/Tree.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/UX.h
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+
+C:/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/main.c
+stdio.h
+-
+UX.h
+C:/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/UX.h
+Tree.h
+C:/Users/erkst/OneDrive/Documents/CIS_308/Proj02_SaenzE/Tree.h
+ctype.h
+-
+stdlib.h
+-
+
